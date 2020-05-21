@@ -12,34 +12,30 @@ The learning algorithm used is vanilla Deep Q Learning, DDQN was researched howe
 The input is the vector of states as show below:
 
 
-![](action_space.png)
+![](Start_space.png)
 
-Deep RL DQN network structure is as follows:
+# Overview
+In this env we have a robotic arm with 2 moveable joints which will be the inputs for targeting the robot agents hand to move to the target sphere
 
-- Fully connected layer - input: 37 (state size) output: 512
-- Fully connected layer - input: 512 output 512
-- Fully connected layer - input: 512 output: (action size)
+Reward: The robotic agent will received a reward of + 0.1 for each step in the training that the robots hand is in the target sphere
 
-Parameters used in DQN algorithm:
-- Batch size of 128 to leverage GPU rather than 64
+Goal: The goal of your agent is to maintain its position at the target location for as many time steps as possible.
 
-- Starting epsilion: 1.0
+Observation Space: The observation space consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm. Each action is a vector with four numbers, corresponding to torque applicable to two joints.
 
-- Maximum steps per episode: 1000
+Action Space: Every entry in the action vector should be a number between -1 and 1.
 
-- Ending epsilion: 0.01
+In order to consider the environment has been solved, the agent must get an average score of +30 over 100 consecutive episodes.
 
-- Epsilion decay rate: 0.995
 
-- Max number of episodes = 2000
 ## Results
 
-![](Episode_training.png)
+![](20_armsGif.gif)
 
 ![](Result_episodic_scores.jpg)
 
 ## Optimized DQN agent
-![](Deep_RL_dqn.gif)
+![](optimised_gif.gif)
 
 # Future research:
 
