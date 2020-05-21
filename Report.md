@@ -25,7 +25,7 @@ each hidden layer has 128 hidden units and is after there's a ReLU activation la
 - After the first layer there's a batch normalization layer, 
 after the output layer we have a tanh activation layer
 
-- Architecture of Critic Network
+# Architecture of Critic Network
 
 - 2 hidden layers and one output layer
 each hidden layer has 128 hidden units and is followed by a ReLU activation layer
