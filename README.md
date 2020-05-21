@@ -60,7 +60,7 @@ To run train this model you will need the below key elements:
 1. [Install AI gym dependencies](https://github.com/udacity/deep-reinforcement-learning#dependencies)
 2. [Install Unity environment](https://github.com/udacity/deep-reinforcement-learning#dependencies)
 3. You can clone the env by running git clone https://github.com/Pytrader1x/AI_Deep_Reinforcement
-
+4. You can then run jupyter notebook Optimal_Continuous_Control.ipynb
 The environment can be downloaded from one of the links below for all operating systems
 
 - Linux: - [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux.zip)
