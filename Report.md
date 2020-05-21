@@ -11,8 +11,11 @@ The learning algorithm used is vanilla Deep Q Learning, DDQN was researched howe
 
 The input is the vector of states as show below:
 
-
 ![](Start_space.png)
+
+# Install
+
+You can clone the env by running git clone https://github.com/Pytrader1x/AI_Deep_Reinforcement
 
 # Overview
 In this env we have a robotic arm with 2 moveable joints which will be the inputs for targeting the robot agents hand to move to the target sphere
