@@ -1,10 +1,15 @@
 # AI_Deep_Reinforcement
 Deep RL for continuous space robotic arm
+
+![Report](https://github.com/Pytrader1x/AI_Deep_Reinforcement/blob/master/Report.md)
+
 ![](20_armsGif.gif)
 
 # After training for 187 Episodes
 
 ![](optimised_gif.gif)
+
+
 
 # Goal
 
