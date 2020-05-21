@@ -9,7 +9,7 @@ Deep RL for continuous space robotic arm
 
 ![](optimised_gif.gif)
 
-
+![](Results.png)
 
 # Goal
 
