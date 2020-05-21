@@ -7,11 +7,40 @@ Reinforcement learning algorithm
 
 3. [RL Actor Agent](https://github.com/Pytrader1x/AI_Deep_Reinforcement/blob/master/agent.py)
 
-The learning algorithm used is vanilla Deep Q Learning, DDQN was researched however the results weren't converging so focused on vanilla impletmentation. 
+
 
 The input is the vector of states as show below:
 
 ![](Start_space.png)
+
+
+# Learning Algorithm
+
+
+We initialize the local Actor and Critic network. The actor network does the policy approximation while the critic does the value estimation. We copy those generated weights to the target Actor and target Critic network after every iteration. In the acting step, the agent passes the state vector through the Actor network and takes the action which is the output of the network. 
+
+In the learning step, the Critic network is used as a feedback to the Actor network to change its weights such that the estimated value of the input state is maximized. 
+Architecture of Actor Network
+
+input layer size = 33
+output layer size = 4
+
+Overall there are 2 hidden layers & 1 output layer
+
+each hidden layer has 128 hidden units and is followed by a ReLU activation layer
+We have a batch normalization layer after the first layer
+output layer is followed by a tanh activation layer
+
+# The Architecture of the Critic Network
+
+input size = 4
+output size = 1
+Two hidden layers plus one output layer where
+the hidden layers have 128 hidden units, these are followed by a ReLU activation layer
+
+After the first layer I put a batch normalization layer to help convergence + a linear activation layer
+
+
 
 # Install
 
