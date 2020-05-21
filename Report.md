@@ -1,7 +1,7 @@
 ## Report
 Reinforcement learning algorithm
 
-1. [Optimized Navigation notebook](https://github.com/Pytrader1x/DeepReinforcementLearning/blob/master/Optimal_DQN_Navigation.ipynb)
+1. [Optimized Navigation notebook](https://github.com/Pytrader1x/AI_Deep_Reinforcement/blob/master/Optimal_Continuous_Control.ipynb)
 
 2. [Optimized Model](https://github.com/Pytrader1x/AI_Deep_Reinforcement/blob/master/model.py)
 
@@ -32,6 +32,9 @@ In order to consider the environment has been solved, the agent must get an aver
 
 
 ## Results
+
+
+![](Results.png)
 
 ![](20_armsGif.gif)
 
