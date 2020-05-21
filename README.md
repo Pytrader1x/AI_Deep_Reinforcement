@@ -12,7 +12,7 @@ Utilising Deep Reinforcement learning and actor critic models and techniques we 
 
 A reward of +0.1 is provided for each timestep that the agent's hand is in the goal location. Thus, the goal of your agent is to maintain its position at the target location for as many time steps as possible.
 
-[version 1] Chosen - A single agent receives an average reward (over 100 episodes) of at least +30, or
+[version 1]  A single agent receives an average reward (over 100 episodes) of at least +30, or
 [version 2] the agent is able to receive an average reward (over 100 episodes, and over all 20 agents) of at least +30.
 
 # Summary of Environment
