@@ -13,6 +13,30 @@ The input is the vector of states as show below:
 
 ![](Start_space.png)
 
+# Model architecture:
+- Architecture of Actor Network
+
+- Overall there are 2 layers that are hidden and one output layer
+each hidden layer has 128 hidden units and is after there's a ReLU activation layer
+
+- Size of input  = 33
+- Size of output  = 4
+
+- After the first layer there's a batch normalization layer, 
+after the output layer we have a tanh activation layer
+
+- Architecture of Critic Network
+
+- 2 hidden layers and one output layer
+each hidden layer has 128 hidden units and is followed by a ReLU activation layer
+
+- Size of input = 4
+- Size of output = 1
+
+- We have a batch normalization layer after the first layer
+output layer is followed by a linear activation unit
+
+
 # Hyperparameters:
 
 - BUFFER_SIZE = int(1e5)  # replay buffer size
