@@ -2,13 +2,17 @@
 Deep RL for continuous space robotic arm
 ![](20_armsGif.gif)
 
+# After training for 187 Episodes
+
+![](optimised_gif.gif)
+
 # Goal
 
-In this project, I build a reinforcement learning (RL) agent that controls a robotic arm within Unity's Reacher environment. The goal is to get 20 different robotic arms to maintain contact with the green spheres.
+Utilising Deep Reinforcement learning and actor critic models and techniques we shall train a robotic arm in continuous state space to be able to manouver to put the agents (Robotic arm's) hand into the target sphere coloured in green.
 
 A reward of +0.1 is provided for each timestep that the agent's hand is in the goal location. Thus, the goal of your agent is to maintain its position at the target location for as many time steps as possible.
 
-[version 1] A single agent receives an average reward (over 100 episodes) of at least +30, or
+[version 1] Chosen - A single agent receives an average reward (over 100 episodes) of at least +30, or
 [version 2] the agent is able to receive an average reward (over 100 episodes, and over all 20 agents) of at least +30.
 
 # Summary of Environment
