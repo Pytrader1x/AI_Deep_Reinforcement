@@ -8,7 +8,8 @@ In this project, I build a reinforcement learning (RL) agent that controls a rob
 
 A reward of +0.1 is provided for each timestep that the agent's hand is in the goal location. Thus, the goal of your agent is to maintain its position at the target location for as many time steps as possible.
 
-In order to solve the environment, our agent must achieve a score of +30 averaged across all 20 agents for 100 consecutive episodes.
+[version 1] A single agent receives an average reward (over 100 episodes) of at least +30, or
+[version 2] the agent is able to receive an average reward (over 100 episodes, and over all 20 agents) of at least +30.
 
 # Summary of Environment
 
