@@ -17,6 +17,19 @@ The input is the vector of states as show below:
 
 You can clone the env by running git clone https://github.com/Pytrader1x/AI_Deep_Reinforcement
 
+The environment can be downloaded from one of the links below for all operating systems
+
+- Linux: - [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux.zip)
+
+- Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher.app.zip)
+
+- Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86.zip)
+
+- Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86_64.zip)
+
+- For AWS: To train the agent on AWS (without enabled a virtual screen), use this link to obtain the "headless" version of the environment. The agent can not be watched without enabling a virtual screen, but can be trained. (To watch the agent, one can follow the instructions to enable a virtual screen, and then download the environment for the Linux operating system above.)
+
+
 # Overview
 In this env we have a robotic arm with 2 moveable joints which will be the inputs for targeting the robot agents hand to move to the target sphere
 
