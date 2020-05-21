@@ -53,7 +53,7 @@ The task is episodic, and in order to solve the environment, the agent must get 
 
 # Setting up the environment
 
-# Install
+# Install & run the agent
 
 To run train this model you will need the below key elements:
 
