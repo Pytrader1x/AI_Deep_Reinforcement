@@ -41,15 +41,15 @@ output layer is followed by a linear activation unit
 
 - BUFFER_SIZE = int(1e5)  # replay buffer size
 
--BATCH_SIZE = 128        # minibatch size
+- BATCH_SIZE = 128        # minibatch size
 
 - GAMMA = 0.99            # discount factor
 
--TAU = 1e-3              # for soft update of target parameters
+- TAU = 1e-3              # for soft update of target parameters
 
 - LR_ACTOR = 2e-4         # learning rate of the actor
 
--LR_CRITIC = 2e-4        # learning rate of the critic
+- LR_CRITIC = 2e-4        # learning rate of the critic
 
 - WEIGHT_DECAY = 0  
 
