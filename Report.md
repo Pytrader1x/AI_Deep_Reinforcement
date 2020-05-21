@@ -75,6 +75,7 @@ In order to consider the environment has been solved, the agent must get an aver
 
 ## Results
 
+![](Result_scores.png)
 
 ![](Results.png)
 
