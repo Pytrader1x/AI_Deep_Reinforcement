@@ -51,7 +51,6 @@ Run experiments, make revisions, and retrain the agent until the performance thr
 
 The task is episodic, and in order to solve the environment, the agent must get an average score of +30 over 100 consecutive episodes.
 
-# Setting up the environment
 
 # Install & run the agent
 
