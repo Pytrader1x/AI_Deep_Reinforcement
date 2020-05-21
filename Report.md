@@ -1,11 +1,11 @@
 ## Report
 Reinforcement learning algorithm
 
-1. [Navigation notebook](https://github.com/Pytrader1x/DeepReinforcementLearning/blob/master/Optimal_DQN_Navigation.ipynb)
+1. [Optimized Navigation notebook](https://github.com/Pytrader1x/DeepReinforcementLearning/blob/master/Optimal_DQN_Navigation.ipynb)
 
-2. [Model](https://github.com/Pytrader1x/DeepReinforcementLearning/blob/master/model.py)
+2. [Optimized Model](https://github.com/Pytrader1x/DeepReinforcementLearning/blob/master/model.py)
 
-3. [DQN Agent](https://github.com/Pytrader1x/DeepReinforcementLearning/blob/master/dqn_agent.py)
+3. [RL Actor Agent](https://github.com/Pytrader1x/DeepReinforcementLearning/blob/master/agent.py)
 
 The learning algorithm used is vanilla Deep Q Learning, DDQN was researched however the results weren't converging so focused on vanilla impletmentation. 
 
